@@ -2,17 +2,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
-import Home1 from './components/Home1';
-import Home2 from './components/Home2';
-import Home3 from './components/Home3';
-import Ecommerce from './components/Ecommerce';
+
 import About from './components/About';
-import Ourteam from './components/Ourteam';
-import Rules from './components/Rules';
-import Typography from './components/Typography';
-import Shortcodes from './components/Shortcodes';
-import Serviceplus from './components/Serviceplus';
-import Policy from './components/Policy';
+
 import Home from './components/Home';
 import Events from './components/Events';
 import Blogs from './components/Blogs';
@@ -46,12 +38,7 @@ function App() {
         <Route path="/shop" element={<Shop/>}/>
         {/* <Route path="/grid" element={<Grid/>}/> */}
         {/* <Route path="/list" element={<List/>}/> */}
-          
-    
-      
-      
-      
-  
+
     </Routes>
     </Router>
   );
